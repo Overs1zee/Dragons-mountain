@@ -15,6 +15,7 @@ skullDragon.className = "dead-dragon";
 let attackBtn;
 let dragonHealth;
 let congrats;
+let buttonCreated = false;
 
 function goWin() {
   const climber = main.querySelector(".climber");
