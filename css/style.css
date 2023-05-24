@@ -1,0 +1,142 @@
+body {
+  background-color: aquamarine;
+  margin-bottom: 0;
+}
+.game {
+  display: flex;
+  gap: 15em;
+  flex-direction: row;
+}
+.mountain {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+.line1 {
+  border: 2px solid #d31c7a;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 6em;
+  margin-left: 12em;
+  z-index: 1;
+}
+
+.line2 {
+  border: 2px solid #d31c7a;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  margin-bottom: 10em;
+  margin-left: 17em;
+}
+.line3 {
+  border: 2px solid #d31c7a;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  margin-bottom: 15em;
+  margin-left: 20em;
+}
+.line4 {
+  border: 2px solid #d31c7a;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  margin-bottom: 16em;
+  margin-left: 27em;
+}
+.line5 {
+  border: 2px solid #d31c7a;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  margin-bottom: 19em;
+  margin-left: 34em;
+}
+.line6 {
+  border: 2px solid #d31c7a;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 23em;
+  margin-left: 38em;
+  z-index: 1;
+}
+.line7 {
+  display: none;
+  border: 2px solid #d31c7a;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 18em;
+  margin-left: 44em;
+  z-index: 1;
+}
+.line8 {
+  display: none;
+  border: 2px solid #d31c7a;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 13em;
+  margin-left: 53em;
+  z-index: 1;
+}
+.line9 {
+  display: none;
+  border: 2px solid #d31c7a;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 16em;
+  margin-left: 63em;
+  z-index: 1;
+}
+.line10 {
+  display: none;
+  border: 2px solid #d31c7a;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 24em;
+  margin-left: 67em;
+  z-index: 1;
+}
+
+.climber {
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+}
+
+.winner {
+  display: none;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 23.6em;
+  margin-left: 37.5em;
+  z-index: 1;
+}
+
+.dragon {
+  /* display: none; */
+  width: 200px;
+  position: absolute;
+  margin-left: 66em;
+  margin-top: 1em;
+}
+
+.dead-dragon {
+  /* display: none; */
+  width: 200px;
+  position: absolute;
+  margin-left: 66em;
+  margin-top: 1em;
+}
