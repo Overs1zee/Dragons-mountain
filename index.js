@@ -69,9 +69,10 @@ function goWin() {
     attackBtn = btn;
     return body.prepend(dangerFlex);
   }
-  if (countIndex === climbList.length - 1) {
+  f (!buttonCreated && countIndex === climbList.length - 1) {
     main.appendChild(dragon);
     createBtn();
+    buttonCreated = true;
 
     attackBtn.addEventListener("click", () => {
       healthPoint -= 20;
