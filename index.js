@@ -69,7 +69,7 @@ function goWin() {
     attackBtn = btn;
     return body.prepend(dangerFlex);
   }
-  f (!buttonCreated && countIndex === climbList.length - 1) {
+  if (!buttonCreated && countIndex === climbList.length - 1) {
     main.appendChild(dragon);
     createBtn();
     buttonCreated = true;
